@@ -1,0 +1,71 @@
+// Non-modular or client styles for the .l-content region.
+
+
+
+.l-main .row {
+	padding: 1em;
+}
+
+.email-signup {
+
+	.button {
+		
+		@media #{$small-up} { 
+			width: 100%;
+		}
+
+		@media #{$large-up} { 
+			width: 50%;
+		}
+	}
+
+	.button-wrapper {
+		text-align: center;
+	}
+}
+
+
+.full-width {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+	width: 100%;
+}
+
+.signup-form {
+	margin: 1.5em auto;
+	max-width: 30em;
+}
+
+.sub-header {
+	background-color: $blue;
+	text-align: center;
+	padding: 0.50em 0em;
+}
+
+
+.keynote {
+	img {
+		display: block;
+		margin: 1em auto;
+	}
+	p {
+		font-size: 0.85em;
+	}
+}
+
+.keynote-speakers {
+	h2 {
+		color: $steel;
+		text-align: center;
+	}
+
+}
+
+.keynote-wrapper {
+	background-color: $smoke;
+	overflow: hidden;
+}
+
+
+

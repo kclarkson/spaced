@@ -1,0 +1,28 @@
+// Non-modular or client styles for asides or sidebars.
+
+
+.l-aside {
+	background-color: $blue;
+	color: $white;
+}
+
+.aside-date  {
+	h1 {
+		font-size: 3rem;
+		@media #{$small-only} { 
+			font-size: 1.5rem;
+			padding: 0em 1em;
+
+		}
+	}
+
+	h2 {
+		font-size: 2rem;
+		@media #{$small-only} { 
+			font-size: 1rem;
+			padding: 0em 1em;
+
+		}
+	}
+	
+}
